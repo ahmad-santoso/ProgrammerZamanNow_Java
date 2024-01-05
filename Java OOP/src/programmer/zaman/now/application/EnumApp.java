@@ -1,8 +1,10 @@
 package programmer.zaman.now.application;
 
+import programmer.zaman.now.annotation.Fancy;
 import programmer.zaman.now.data.Customer;
 import programmer.zaman.now.data.Level;
 
+@Fancy(name = "AnimalApp", tage = {"application", "java"})      // Ini Annotation
 public class EnumApp {
     public static void main(String[] args) {
         Customer customer = new Customer();
